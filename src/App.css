@@ -1,0 +1,56 @@
+body{
+  color: white;
+  background-color: black;
+  margin: 0px 0px;
+  gap: 0px;
+
+}
+
+.card{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+}
+.contenedor_users{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  gap: 20px;
+  justify-content: center;
+}
+.tilte_users{
+  text-align: center;
+}
+.create{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-areas: auto;
+}
+.email{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  
+}
+.last_name{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.first_name{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.password{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.birthday{
+  display: flex;
+  justify-content: space-between;
+  
+}
